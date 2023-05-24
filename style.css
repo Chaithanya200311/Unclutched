@@ -249,6 +249,7 @@ button:focus {
 	float: left;
 	opacity: 0.94;
 	width: 100%;
+	padding: 5%;
 }
 
 .mu-logo-area {
@@ -256,6 +257,7 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
+	padding: 20px;
 }
 
 .mu-logo {
@@ -263,8 +265,8 @@ button:focus {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-weight: 600;
-	padding: 5px 20px;
-	margin-bottom: 30px;
+	padding: 10px;
+	margin-bottom: 5px;
 }
 
 
@@ -294,7 +296,6 @@ button:focus {
 .mu-hero-featured-area {
 	display: inline;
 	float: left;
-	padding: 5px 0 20px;
 	width: 100%;
 }
 
@@ -307,9 +308,9 @@ button:focus {
 }
 
 .mu-hero-featured-content h1 {
-	font-size: 45px;
+	font-size: 60px;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 600;
 	margin-bottom: 15px;
 }
 
