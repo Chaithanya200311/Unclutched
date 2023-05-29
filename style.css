@@ -172,6 +172,16 @@ button:focus {
 	border: none;
 }
 
+/* ========= PRELOADER =========*/
+
+#preloader{
+	background: #000;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
 /* ========= CURSOR =========*/
 
 .circle{
@@ -409,6 +419,9 @@ button:focus {
 /* ABOUT US */
 /*--------------------*/
 
+.myimg{
+	filter: drop-shadow(-10px -10px 10px #EE3268);
+}
 
 #mu-about {
 	background-color: #fff;
