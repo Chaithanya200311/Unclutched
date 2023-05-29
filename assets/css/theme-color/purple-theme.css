@@ -5,13 +5,6 @@ Template Design By MarkUps
 Author URI : http://www.markups.io/
 ========================================*/
 
-.mu-hero-overlay,
-.mu-video-overlay {
-	background-color: #c762cb;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #c762cb);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #c762cb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 
 .mu-primary-btn:hover,
 .mu-primary-btn:focus,
