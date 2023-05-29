@@ -18,6 +18,16 @@
 	
 **/
 
+/* PRELOADER start */
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+	loader.style.display = "none";
+})
+
+
+/* PRELOADER end */
+
 /* CURSOR start */
 
 const coords = { x: 0, y: 0 };
@@ -25,7 +35,9 @@ const circles = document.querySelectorAll(".circle");
 
 const colors = [
 	"#f6acff",
-    "#fcc1fc"
+    "#fcc1fc",
+	"#000000",
+	"#ffffff"
 ]
 
 circles.forEach(function (circle, index) {
