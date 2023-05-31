@@ -245,7 +245,7 @@ button:focus {
 
 #mu-hero {
 	background-image: radial-gradient(#eea4fd, #7621a3, #5926c3);
-	display: inline;
+	display: flex;
 	float: left;
 	width: 100%;
 	background-position: center center;
@@ -263,11 +263,11 @@ button:focus {
 }
 
 .mu-logo-area {
-	display: inline;
-	float: left;
-	text-align: center;
-	width: 100%;
-	padding: 20px;
+	display: flex;
+	justify-content: center;
+        align-items: center;
+        height: 100%;
+    
 }
 
 .mu-logo {
@@ -277,6 +277,7 @@ button:focus {
 	font-weight: 600;
 	padding: 10px;
 	margin-bottom: 5px;
+	opacity: 0.2;
 }
 
 
@@ -310,18 +311,20 @@ button:focus {
 }
 
 .mu-hero-featured-content {
-	display: inline;
-	float: right;
-	margin-top: 50px;
-	text-align: center;
-	width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -47%);
+        text-align: center;
+        color: white;
+	
 }
 
 .mu-hero-featured-content h1 {
-	font-size: 60px;
-	color: #fff;
-	font-weight: 600;
-	margin-bottom: 15px;
+        font-size: 80px;
+        font-weight: bold;
+        margin-bottom: -20px;
+        
 }
 
 
