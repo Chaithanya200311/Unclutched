@@ -34,10 +34,25 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-	"#f6acff",
-    "#fcc1fc",
-	"#000000",
-	"#ffffff"
+          "#ff8696", 
+	  "#ff8e9e", 
+	  "#ff96a6", 
+	  "#ff9eae", 
+	  "#ffa6b6",
+	  "#ffaebe", 
+	  "#ffb6c8", 
+	  "#ffbed0", 
+	  "#ffc7d7", 
+	  "#ffcfdf", 
+	  "#ffd7e8", 
+	  "#ffdff0", 
+	  "#ffe6f7",
+	  "#ffebf9",
+	  "#fff0fb",
+	  "#fff5fd",
+	  "#fffafd",
+	  "#fffffe",
+	  "#ffffff"  
 ]
 
 circles.forEach(function (circle, index) {
